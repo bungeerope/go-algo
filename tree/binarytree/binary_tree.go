@@ -18,6 +18,7 @@ func PreOrder(node *TreeNode) {
 	PreOrder(node.Right)
 }
 
+// 中序遍历(左子树 -> 根节点 -> 右子树)
 func MidOrder(node *TreeNode) {
 	if node == nil {
 		return
@@ -27,6 +28,7 @@ func MidOrder(node *TreeNode) {
 	MidOrder(node.Right)
 }
 
+// 后序遍历(左子树 -> 右子树 -> 根节点)
 func PostOrder(node *TreeNode) {
 	if node == nil {
 		return

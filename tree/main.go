@@ -28,4 +28,9 @@ func main() {
 	fmt.Println("后序遍历")
 	binarytree.PostOrder(tree)
 	fmt.Println()
+
+	// 二叉树层次遍历
+	fmt.Println("层次遍历")
+	binarytree.BFS(tree)
+	fmt.Println()
 }
