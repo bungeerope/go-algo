@@ -1,8 +1,8 @@
 package main
 
 import (
-	"algo/sort/compare/insert"
-	"algo/sort/compare/selector"
+	"algo/algo/sort/compare/insert"
+	"algo/algo/sort/compare/selector"
 	"fmt"
 )
 
