@@ -44,10 +44,10 @@ func core(remain []byte, last []byte) []string {
 }
 
 func permutation(s string) []string {
-	if len(s) > 0 {
-		core([]byte(s), []byte{})
+	if len(s) == 0 {
+		return nil
 	}
-	return nil
+	return core([]byte(s), []byte{})
 }
 
 func main() {
