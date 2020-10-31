@@ -18,6 +18,6 @@ func uniqueOccurrences(arr []int) bool {
 
 func main() {
 	fmt.Println(uniqueOccurrences([]int{1, 2, 2, 1, 1, 3}))
-	fmt.Println(uniqueOccurrences([]int{1, 2}))
+	//fmt.Println(uniqueOccurrences([]int{1, 2}))
 	fmt.Println(uniqueOccurrences([]int{-3, 0, 1, -3, 1, 1, 1, -3, 10, 0}))
 }
