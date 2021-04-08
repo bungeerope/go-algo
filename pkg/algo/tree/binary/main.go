@@ -1,7 +1,7 @@
 package main
 
 import (
-	"algo/algo/tree/binary/binarytree"
+	"algo/pkg/algo/tree/binary/binarytree"
 	"fmt"
 )
 
